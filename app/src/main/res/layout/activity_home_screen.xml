@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLight"
+    tools:context="haby.sosa.daniel.brewtracker.HomeScreen">
+
+    <Button
+        android:id="@+id/useFav3Bttn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/goGreen"
+        android:padding="15dp"
+        android:text="Brew"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuidline2"
+        app:layout_constraintLeft_toRightOf="@+id/useFav2Bttn"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/useFav2Bttn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/goGreen"
+        android:padding="15dp"
+        android:text="Brew"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuidline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/useFav1Bttn"
+        app:layout_constraintRight_toLeftOf="@+id/verticalGuidline2" />
+
+    <Button
+        android:id="@+id/useFav1Bttn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/goGreen"
+        android:padding="15dp"
+        android:text="Brew"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuidline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/verticalGuidline1" />
+
+    <ImageButton
+        android:id="@+id/newBrewIcon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@null"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuidline1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/brew_icon"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontalGuidline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/verticalGuidline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/verticalGuidline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontalGuidline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <TextView
+        android:id="@+id/textFavourite1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Favourite 1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/verticalGuidline1"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuidline1" />
+
+    <TextView
+        android:id="@+id/textFavourite2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Favourite 2"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="@+id/verticalGuidline1"
+        app:layout_constraintRight_toLeftOf="@+id/verticalGuidline2"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuidline1" />
+
+    <TextView
+        android:id="@+id/textFavourite3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Favourite 3"
+        app:layout_constraintLeft_toLeftOf="@+id/verticalGuidline2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuidline1" />
+
+</android.support.constraint.ConstraintLayout>

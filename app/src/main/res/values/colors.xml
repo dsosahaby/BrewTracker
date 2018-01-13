@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cbae82</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#f1c6ef</color>
+    <color name="theme1">#ccbb22</color>
+    <color name="goGreen">#8ee788</color>
+
+    <color name="primary">#ffe0b2</color>
+    <color name="primaryLight">#ffffe4</color>
+    <color name="primaryDark">#cbae82</color>
+
+    <color name="secondary">#afbdc4</color>
+    <color name="secondaryLight">#e1eff7</color>
+    <color name="secondaryDark">#808d94</color>
+
+
+
+
+
+
+
+
+</resources>
